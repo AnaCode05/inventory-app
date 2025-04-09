@@ -14,18 +14,18 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export default function Home() {
+export default function Ledger() {
   return (
     <>
       <Head>
-        <title>Inventory</title>
+        <title>Ledger</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div
         className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
       >
         <main className={styles.main}>
-          <h1>Inventory</h1>
+          <h1>Ledger</h1>
           <ol>
             <li>
               Get started by editing <code>pages/index.js</code>.
@@ -36,7 +36,7 @@ export default function Home() {
           <div className={styles.ctas}>
             <a
               className={styles.primary}
-              href="/add_item"
+              href="/"
               rel="noopener noreferrer"
             >
               <Image
