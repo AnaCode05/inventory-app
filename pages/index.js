@@ -67,10 +67,10 @@ export default function Home() {
             </a>
           </div>
         </main>
+
         <footer className={styles.footer}>
           <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
+            href="/"
             rel="noopener noreferrer"
           >
             <Image
@@ -80,21 +80,20 @@ export default function Home() {
               width={16}
               height={16}
             />
-            Learn
+            Home
           </a>
           <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
+            href="/"
             rel="noopener noreferrer"
           >
             <Image
               aria-hidden
-              src="/window.svg"
+              src="/plus-circle.svg"
               alt="Window icon"
               width={16}
               height={16}
             />
-            Examples
+            Add Item
           </a>
           <a
             href="https://nextjs.org?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
