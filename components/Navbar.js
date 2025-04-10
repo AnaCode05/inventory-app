@@ -33,7 +33,7 @@ function Navbar() {
       </a>
       <a
         href="/ledger"
-        target="_blank"
+        // target="_blank"
         rel="noopener noreferrer"
       >
         <Image
@@ -43,10 +43,10 @@ function Navbar() {
           width={16}
           height={16}
         />
-        Ledger →
+        Ledger
       </a>
     </footer>
-  )
+  );
 }
 
 export default Navbar;

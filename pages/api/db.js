@@ -2,7 +2,7 @@ import { Pool } from 'pg';
 
 // Create a new pool instance using the DATABASE_URL environment variable
 const pool = new Pool({
-  connectionString: process.env.DATABASE_URL, // e.g., "postgres://user:password@host:port/database"
+  connectionString: process.env.DATABASE_URL,
   ssl: {
     rejectUnauthorized: false,
   },

@@ -3,6 +3,8 @@ import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Navbar from '@/components/Navbar';
+import InventoryList from "@/components/InventoryList";
+// import { CreateInventoryDB } from "./api/db"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,12 +28,9 @@ export default function Home() {
       >
         <main className={styles.main}>
           <h1>Inventory</h1>
-          <ol>
-            <li>
-              Get started by editing <code>pages/index.js</code>.
-            </li>
-            <li>Save and see your changes instantly.</li>
-          </ol>
+          
+          
+          <InventoryList/>
 
           <div className={styles.ctas}>
             <a
@@ -46,14 +45,6 @@ export default function Home() {
                 height={20}
               />
               Add Item
-            </a>
-            <a
-              href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.secondary}
-            >
-              Read our docs
             </a>
           </div>
         </main>
