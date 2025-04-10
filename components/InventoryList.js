@@ -15,7 +15,7 @@ function InventoryList() {
                 </tr>
             </thead>
             <tbody>
-                {/* transactions.forEach(item => { */}
+                {/* inventory.forEach(item => { */}
                     <tr>
                         <td>item.id</td>
                         <td>item.name</td>

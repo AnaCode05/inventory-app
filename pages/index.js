@@ -4,7 +4,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Navbar from '@/components/Navbar';
 import InventoryList from "@/components/InventoryList";
-// import { CreateInventoryDB } from "./api/db"
+import { handler } from "./api/db"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,8 +28,8 @@ export default function Home() {
       >
         <main className={styles.main}>
           <h1>Inventory</h1>
-          
-          
+
+          {/* Inventory Component */}
           <InventoryList/>
 
           <div className={styles.ctas}>
