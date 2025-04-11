@@ -49,3 +49,8 @@ export default async function handler(req, res) {
     res.status(405).end(`Method ${req.method} Not Allowed`);
   }
 }
+
+import InventoryList from "@/components/InventoryList";
+import { createTables } from "./db";
+
+createTables();
