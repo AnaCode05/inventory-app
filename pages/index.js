@@ -4,6 +4,10 @@ import { Geist, Geist_Mono } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Navbar from "@/components/Navbar";
 import InventoryList from "@/components/InventoryList";
+<<<<<<< HEAD
+=======
+import { handler } from "./api/db"
+>>>>>>> 642be528110e4ea4a4089001706998104bbfd991
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,8 +32,13 @@ export default function Home() {
         <main className={styles.main}>
           <h1>Inventory</h1>
 
+<<<<<<< HEAD
           {/* InventoryList Component */}
           <InventoryList />
+=======
+          {/* Inventory Component */}
+          <InventoryList/>
+>>>>>>> 642be528110e4ea4a4089001706998104bbfd991
 
           <div className={styles.ctas}>
             <a
