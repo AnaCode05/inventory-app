@@ -4,7 +4,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Navbar from '@/components/Navbar';
 import InventoryList from "@/components/InventoryList";
-import { handler } from "./api/db"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

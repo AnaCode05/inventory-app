@@ -15,7 +15,7 @@ function InventoryList() {
                 </tr>
             </thead>
             <tbody>
-                {/* inventory.forEach(item => { */}
+                {/* { inventory.forEach(item => {  */}
                     <tr>
                         <td>item.id</td>
                         <td>item.name</td>
@@ -24,7 +24,7 @@ function InventoryList() {
                         <td>item.price</td>
                         <td>item.date_added</td>
                     </tr>
-                {/* }); */}
+                {/* })} */}
             </tbody>
          </table>
     </>);
